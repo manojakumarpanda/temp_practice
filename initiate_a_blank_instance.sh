@@ -18,7 +18,7 @@ echo '<!DOCTYPE html>
 
 </body>
 </html>
-' >> ./sample.html
+' >> ./index.html
 
 << Alternative
 cat << EOF > /var/www/html/index.html
