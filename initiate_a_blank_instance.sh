@@ -19,3 +19,18 @@ echo '<!DOCTYPE html>
 </body>
 </html>
 ' >> ./sample.html
+
+<< Alternative
+cat << 'EOF' >./sample.html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My First Heading</h1>
+
+<p>My first paragraph.</p>
+
+</body>
+</html>
+EOF
+Alternative
